@@ -1,0 +1,103 @@
+/*Modal*/
+
+.modalBackground {
+    width: 844px;
+    height: 342px;
+    position: fixed;
+    /*background: #0404d7;*/
+    border-radius: 9px;
+}
+
+#line {
+    width: 240px;
+    border: 1px solid #D7D7D7;
+    transform: rotate(-90deg);
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+.pokemonDescription {
+    width: 432px;
+    height: 250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #373299;
+    margin-left: -40px;
+    margin-right: 100px;
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F7F7F9;
+}
+
+#close {
+    float: right;
+    margin-left: -30px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-right: -50px;
+    justify-content: space-between;
+}
+
+#typeBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    color: white;
+    border-radius: 9px;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.description {
+    margin-top: -20px;
+}
+
+#Name {
+    width: 151px;
+    height: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #373299;
+    /* text-align: center; */
+    margin-left: 90px;
+    margin-bottom: 7px;
+    margin-top: -10px;
+
+}
+
+#imgModal {
+    margin-left: 60px;
+    width: 165px;
+    height: 150px;
+    margin-bottom: -2px;
+}
+
+#pokNumModal {
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 7px;
+    color: #373299;
+
+}
